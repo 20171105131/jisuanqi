@@ -101,7 +101,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="="/>
                                 <connections>
-                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ppp-Js-hgY"/>
                                     <action selector="buttonCaculater:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Eg-L9-W3g"/>
                                 </connections>
                             </button>

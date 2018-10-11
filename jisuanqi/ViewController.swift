@@ -37,6 +37,18 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func buttonMinus(_ sender: Any) {
+        
+    }
+    
+    @IBAction func buttonMultiply(_ sender: Any) {
+        
+    }
+    
+    @IBAction func buttonDivided(_ sender: Any) {
+        
+    }
+    
     @IBAction func button1(_ sender: Any)
     {
         caculaterDisplay.text = caculaterDisplay.text! + "1"

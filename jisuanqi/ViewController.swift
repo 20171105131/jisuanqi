@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     var temp = 0
+    var flag = 0
 
     @IBOutlet weak var caculaterDisplay: UITextField!
     
@@ -31,21 +32,38 @@ class ViewController: UIViewController {
     
     @IBAction func buttonAnd(_ sender: Any)
     {
-        temp =
+      temp =
         Int(caculaterDisplay.text!)!
-        caculaterDisplay.text=""
+        
+        caculaterDisplay.text = ""
+        flag = 1
     }
     
     
     @IBAction func buttonMinus(_ sender: Any) {
+        temp =
+            Int(caculaterDisplay.text!)!
+        
+        caculaterDisplay.text = ""
+        flag = 2
         
     }
     
     @IBAction func buttonMultiply(_ sender: Any) {
+        temp =
+            Int(caculaterDisplay.text!)!
+        
+        caculaterDisplay.text = ""
+        flag = 3
         
     }
     
     @IBAction func buttonDivided(_ sender: Any) {
+        temp =
+            Int(caculaterDisplay.text!)!
+        
+        caculaterDisplay.text = ""
+        flag = 4
         
     }
     

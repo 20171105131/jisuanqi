@@ -17,10 +17,34 @@ class ViewController: UIViewController {
     
     @IBAction func buttonCaculater(_ sender: Any)
     {
-        var sum = 0
-        sum = temp +
+        if(flag==1)
+        {
+            var sum = 0
+            sum = temp +
             Int(caculaterDisplay.text!)!
-        caculaterDisplay.text = "\(sum)"
+            caculaterDisplay.text = "\(sum)"
+        }
+        if(flag==2)
+        {
+            var minus = 0
+            minus = temp -
+                Int(caculaterDisplay.text!)!
+            caculaterDisplay.text = "\(minus)"
+        }
+        if(flag==3)
+        {
+            var multiply = 0
+            multiply = temp *
+                Int(caculaterDisplay.text!)!
+            caculaterDisplay.text = "\(multiply)"
+        }
+        if(flag==4)
+        {
+            var Divided = 0
+            Divided = temp /
+                Int(caculaterDisplay.text!)!
+            caculaterDisplay.text = "\(Divided)"
+        }
     }
     
     

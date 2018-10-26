@@ -45,6 +45,7 @@ class ViewController: UIViewController {
                 Int(caculaterDisplay.text!)!
             caculaterDisplay.text = "\(Divided)"
         }
+
     }
     
     
@@ -72,7 +73,6 @@ class ViewController: UIViewController {
         flag = 2
         
     }
-    
     @IBAction func buttonMultiply(_ sender: Any) {
         temp =
             Int(caculaterDisplay.text!)!

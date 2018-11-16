@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     var temp = 0
     var flag = 0
-    
+
     @IBOutlet weak var caculaterDisplay: UITextField!
     
     @IBOutlet weak var caculaterDisplay2: UILabel!
@@ -22,8 +22,9 @@ class ViewController: UIViewController {
         {
             var sum = 0
             sum = temp +
-            Int(caculaterDisplay.text!)!
+                Int(caculaterDisplay.text!)!
             caculaterDisplay2.text = "\(sum)"
+            caculaterDisplay.text = ""
         }
         if(flag==2)
         {
@@ -31,6 +32,7 @@ class ViewController: UIViewController {
             minus = temp -
                 Int(caculaterDisplay.text!)!
             caculaterDisplay2.text = "\(minus)"
+            caculaterDisplay.text = ""
         }
         if(flag==3)
         {
@@ -38,6 +40,7 @@ class ViewController: UIViewController {
             multiply = temp *
                 Int(caculaterDisplay.text!)!
             caculaterDisplay2.text = "\(multiply)"
+            caculaterDisplay.text = ""
         }
         if(flag==4)
         {
@@ -45,6 +48,7 @@ class ViewController: UIViewController {
             Divided = temp /
                 Int(caculaterDisplay.text!)!
             caculaterDisplay2.text = "\(Divided)"
+            caculaterDisplay.text = ""
         }
 
     }
@@ -53,6 +57,7 @@ class ViewController: UIViewController {
     @IBAction func buttenClear(_ sender: Any)
     {
         caculaterDisplay.text = ""
+        caculaterDisplay2.text = ""
     }
     
     
@@ -74,7 +79,8 @@ class ViewController: UIViewController {
         flag = 2
         
     }
-    @IBAction func buttonMultiply(_ sender: Any) {
+
+    @IBAction func buttonMultiply1(_ sender: Any) {
         temp =
             Int(caculaterDisplay.text!)!
         

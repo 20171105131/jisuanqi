@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "jisuanqi/ViewController.swift"
-            timestampString = "563939599.198736"
+            timestampString = "564025171.805208"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "buttonCaculater(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "jisuanqi/ViewController.swift"
-            timestampString = "563939599.1991709"
+            timestampString = "564025171.805907"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "buttonCaculater(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,28 +42,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "jisuanqi/ViewController.swift"
-            timestampString = "563939599.199471"
+            timestampString = "564025171.80673"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "buttonMinus(_:)"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "buttonAnd(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "jisuanqi/ViewController.swift"
-            timestampString = "563939599.199774"
+            timestampString = "564025171.80713"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "buttonCaculater(_:)"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "buttonAnd(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
